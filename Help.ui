@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1218</width>
+    <height>765</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Interface Help</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 127);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame_3">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>68</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton#pushButton:hover{
+	background-color: rgb(85, 0, 127);
+	color: rgb(170, 255, 127);
+}
+
+QPushButton#pushButton:pressed{
+	
+	background-color: rgb(0, 170, 0);
+}</string>
+           </property>
+           <property name="text">
+            <string> MENU</string>
+           </property>
+           <property name="icon">
+            <iconset resource="Icon.qrc">
+             <normaloff>:/Icon/icons/icon_menu.png</normaloff>:/Icon/icons/icon_menu.png</iconset>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_4">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QFrame" name="frame_5">
+        <property name="styleSheet">
+         <string notr="true">aaaa</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLineEdit" name="lineEdit">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>212</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>18</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Documentation</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_7">
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame_6">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>70</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(195, 195, 195);
+background-color: rgb(72, 72, 72);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QFrame" name="frame_9">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>34</height>
+            </size>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+             <widget class="QLineEdit" name="lineEdit_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>150</width>
+                <height>212</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>14</pointsize>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>CONTENTS</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item alignment="Qt::AlignLeft|Qt::AlignTop">
+          <widget class="QFrame" name="frame_10">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_7">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QFrame" name="frame_11">
+              <property name="minimumSize">
+               <size>
+                <width>273</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QGridLayout" name="gridLayout">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item row="8" column="0">
+                <widget class="QPushButton" name="pushButton_Interact1">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>14</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton#pushButton_Interact1:hover{
+	background-color: rgb(85, 0, 127);
+	color: rgb(170, 255, 127);
+}
+
+QPushButton#pushButton_Interact1:pressed{
+	
+	background-color: rgb(0, 170, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>    Interact 1           </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="Icon.qrc">
+                   <normaloff>:/Icon/icons/cil-check.png</normaloff>:/Icon/icons/cil-check.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="0">
+                <widget class="QPushButton" name="pushButton_ThreeBut">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>14</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton#pushButton_ThreeBut:hover{
+	background-color: rgb(85, 0, 127);
+	color: rgb(170, 255, 127);
+}
+
+QPushButton#pushButton_ThreeBut:pressed{
+	
+	background-color: rgb(0, 170, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>   Excute,Delete,Edit</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="Icon.qrc">
+                   <normaloff>:/Icon/icons/cil-lock-unlocked.png</normaloff>:/Icon/icons/cil-lock-unlocked.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QPushButton" name="pushButton_SearchFeature">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>14</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton#pushButton_SearchFeature:hover{
+	background-color: rgb(85, 0, 127);
+	color: rgb(170, 255, 127);
+}
+
+QPushButton#pushButton_SearchFeature:pressed{
+	
+	background-color: rgb(0, 170, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>    Search feature    </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="Icon.qrc">
+                   <normaloff>:/Icon/icons/cil-magnifying-glass.png</normaloff>:/Icon/icons/cil-magnifying-glass.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="pushButton_PipeLine">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>14</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton#pushButton_PipeLine:hover{
+	background-color: rgb(85, 0, 127);
+	color: rgb(170, 255, 127);
+}
+
+QPushButton#pushButton_PipeLine:pressed{
+	
+	background-color: rgb(0, 170, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>    Pipe line             </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="Icon.qrc">
+                   <normaloff>:/Icon/icons/cil-cursor-move.png</normaloff>:/Icon/icons/cil-cursor-move.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="pushButton_Overview">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>14</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton#pushButton_Overview:hover{
+	background-color: rgb(85, 0, 127);
+	color: rgb(170, 255, 127);
+}
+
+QPushButton#pushButton_Overview:pressed{
+	
+	background-color: rgb(0, 170, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>    OverView           </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="Icon.qrc">
+                   <normaloff>:/Icon/icons/cil-lightbulb.png</normaloff>:/Icon/icons/cil-lightbulb.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="pushButton_PipeLine_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>14</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton#pushButton_PipeLine_2:hover{
+	background-color: rgb(85, 0, 127);
+	color: rgb(170, 255, 127);
+}
+
+QPushButton#pushButton_PipeLine_2:pressed{
+	
+	background-color: rgb(0, 170, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>    Main Interface    </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="Icon.qrc">
+                   <normaloff>:/Icon/icons/cil-3d.png</normaloff>:/Icon/icons/cil-3d.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QPushButton" name="pushButton_AdHTable">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>14</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton#pushButton_AdHTable:hover{
+	background-color: rgb(85, 0, 127);
+	color: rgb(170, 255, 127);
+}
+
+QPushButton#pushButton_AdHTable:pressed{
+	
+	background-color: rgb(0, 170, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>    Add DH table      </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="Icon.qrc">
+                   <normaloff>:/Icon/icons/cil-plus.png</normaloff>:/Icon/icons/cil-plus.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="0">
+                <widget class="QPushButton" name="pushButton_Interact2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>14</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton#pushButton_Interact2:hover{
+	background-color: rgb(85, 0, 127);
+	color: rgb(170, 255, 127);
+}
+
+QPushButton#pushButton_Interact2:pressed{
+	
+	background-color: rgb(0, 170, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>    Interact 2           </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="Icon.qrc">
+                   <normaloff>:/Icon/icons/cil-check.png</normaloff>:/Icon/icons/cil-check.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QPushButton" name="pushButton_AddAction">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>45</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>14</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton#pushButton_AddAction:hover{
+	background-color: rgb(85, 0, 127);
+	color: rgb(170, 255, 127);
+}
+
+QPushButton#pushButton_AddAction:pressed{
+	
+	background-color: rgb(0, 170, 0);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>    Add Action          </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="Icon.qrc">
+                   <normaloff>:/Icon/icons/cil-plus.png</normaloff>:/Icon/icons/cil-plus.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>25</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="frame_8">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>366</width>
+          <height>653</height>
+         </size>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QStackedWidget" name="stackedWidget">
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="page">
+            <layout class="QVBoxLayout" name="verticalLayout_12">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QTextEdit" name="textEdit_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="html">
+                <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:138%; background-color:#ffffff;&quot;&gt;&lt;a name=&quot;docs-internal-guid-55c264d8-7fff-c6d3-3f85-be18905cb218&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:18pt; font-weight:696; color:#000000; background-color:transparent;&quot;&gt;G&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:18pt; font-weight:696; color:#000000; background-color:transparent;&quot;&gt;IAO DIỆN MÔ PHỎNG ĐIỀU KHIỂN CÁNH TAY ROBOT &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_5">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>cac-mau-canh-tay-robot-cong-nghiep.jpg</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_1">
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QTextEdit" name="textEdit">
+               <property name="html">
+                <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;Tổng quan giải pháp của đề tài: &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:6pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Khái niệm về Arm Robot:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:6pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;docs-internal-guid-4d83ffd8-7fff-0b99-5acc-236f2ab8ff8e&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:14pt; color:#000000; background-color:transparent;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:14pt; color:#000000; background-color:transparent;&quot;&gt;rm robot (hay gọi là cánh tay robot) là một loại cánh tay cơ học, thường được lập trình, có chức năng tương tự như cánh tay người; cánh tay có thể là tổng của cơ chế hoặc có thể là một phần của robot phức tạp hơn. Các liên kết của một bộ điều khiển như vậy được kết nối bởi các khớp cho phép chuyển động quay hoặc dịch chuyển tịnh tiến.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:6pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:6pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Những khó khăn khi làm việc với Arm robot:&lt;/span&gt;&lt;span style=&quot; font-size:6pt; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:6pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:14pt; color:#000000;&quot;&gt;Khả năng kết hợp với con người còn hạn chế với  những điều khiển nút ấn.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:14pt; color:#000000;&quot;&gt;Sai sót chưa tối ưu khi chưa có màn hình theo dõi cụ thể.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:14pt; color:#000000;&quot;&gt;Tương tác người – Arm robot chưa linh hoạt, tốn nhiều  thời gian.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Giải pháp đề xuất của đề:&lt;/span&gt;&lt;span style=&quot; font-size:6pt; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:6pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:14pt; color:#000000;&quot;&gt;Giao diện được nhóm thiết kế nhằm cải thiện các khó khăn mà khi làm việc gặp phải với Arm Robot, giao diện tạo ra giúp người dùng trực tiếp tương tác với Robot và theo dõi điều khiển với các tính năng:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:6pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans Symbols'; font-size:14pt; color:#000000;&quot;&gt;✔ &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:14pt; color:#000000;&quot;&gt;Tạo ra không gian làm việc từ dữ liệu cài đặt đầu vào của người dùng.&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:6pt; color:#000000;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:6pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans Symbols'; font-size:14pt; color:#000000;&quot;&gt;✔&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:14pt; color:#000000;&quot;&gt;Mô phỏng được chuyển động của Arm robot trong không gian làm việc.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:6pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:6pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Noto Sans Symbols'; font-size:14pt; color:#000000;&quot;&gt;✔&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:14pt; color:#000000;&quot;&gt;Vẽ quỹ đạo chuyển động của điểm cuối, cho phép người dùng điều khiển cánh tay bằng điều khiển từng thông số khớp.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_2">
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_2">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>main_interface.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_3">
+            <layout class="QVBoxLayout" name="verticalLayout_8">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>luu_do.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_4">
+            <layout class="QVBoxLayout" name="verticalLayout_9">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>Search_feature.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_5">
+            <layout class="QVBoxLayout" name="verticalLayout_10">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>Feature_DH.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_6">
+            <layout class="QVBoxLayout" name="verticalLayout_11">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_6">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>edit,Execute,delete.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_7">
+            <layout class="QVBoxLayout" name="verticalLayout_13">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_7">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>Add_feature.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_8">
+            <layout class="QVBoxLayout" name="verticalLayout_14">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_8">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="textFormat">
+                <enum>Qt::MarkdownText</enum>
+               </property>
+               <property name="pixmap">
+                <pixmap>tt1.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_9">
+            <layout class="QVBoxLayout" name="verticalLayout_15">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>tt_2.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
