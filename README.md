@@ -15,4 +15,4 @@
 ## Chạy Code 
 - Chạy file chính "UET_ARMUI", nơi chứa giao diện đầy đủ các tính năng mà nhóm đã tạo ra
 ## Video Demo
-https://github.com/PhamDangNguyen/Nhap_mon_tuong_tac_nguoi_may/issues/1#issue-1731061811
+https://github.com/PhamDangNguyen/Nhap_mon_tuong_tac_nguoi_may/assets/86046279/75680ccc-30ba-400f-883a-8b8eb514b23c
